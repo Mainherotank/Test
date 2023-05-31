@@ -1,0 +1,52 @@
+body{
+  background:url('img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+}
+.box{
+  justify-content:center;
+  align-items: center;
+  display: flex;
+  min-height: 90vh;
+  text-align: center;
+  
+  
+  
+}
+.container{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 15px;
+  
+}
+
+.input-field{
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  height: 37px;
+  margin: 17px;
+  background: rgba(255,255,255,0.1);
+}
+.input{
+  height: 30px;
+  width: 70px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: rgba(255,255,255,0.4);
+}
+.img{
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  border: double;
+  position: relative;
+  left: 120px;
+  top: -20px;
+ 
+}
+
